@@ -1,0 +1,21 @@
+node_modules/
+dist/
+release/
+vendor/
+*.log
+.DS_Store
+*.part
+
+.build-cache/
+vendor/
+GET-IT-BUILD-LOG.txt
+
+# Do not push local credentials or Apple signing keys to cloud builds.
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+*.mobileprovision
